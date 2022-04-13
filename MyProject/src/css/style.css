@@ -1,0 +1,237 @@
+nav {
+	width: 100%;
+	height: 60px;
+	background: #344051;
+}
+
+.logo {
+	color: #fff;
+	font-size: 26px;
+	line-height: 60px;
+	padding-left: 388px;
+	float: left;
+}
+
+.info {
+	float: left;
+	padding-left: 432px;
+}
+
+.info li {
+	float: left;
+	line-height: 60px;
+	color: #fff;
+	margin-right: 40px;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.main {
+	width: 100%;
+	height: calc(100% - 60px);
+	background: url(../img/shadow.png) no-repeat bottom, url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
+}
+
+.title__container {
+	float: left;
+	margin: 432px 0px 0px 404px;
+	color: #2c384a;
+	text-align: center;
+}
+
+.title__container h1 {
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.title__container p {
+	margin-top: 40px;
+	font-size: 22px;
+	color: #79818d;
+}
+
+.title__container input {
+	height: 40px;
+	text-align: center;
+	border: 2px solid #6d7682;
+	background: none;
+	border-radius: 5px;
+	color: #6d7682;
+	font-size: 13px;
+	padding: 0px 16px;
+	margin: 50px 14px 0px 14px;
+}
+
+
+
+.obo__mne h2 {
+	font-size: 33px;
+	color: #263244;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 108px;
+}
+
+.obo__mne img {
+	margin-left: 48.5%;
+	margin-top: 15px;
+}
+
+.image {
+	margin-right: 140px;
+	margin-top: 65px;
+}
+
+.obo__mne p {
+	color: #414b5b;
+
+	text-align: justify;
+	margin-left: 593px;
+	margin-top: 25px;
+}
+
+.knopka__resume input {
+	height: 34px;
+	width: 158px;
+	text-align: center;
+	border: 2px solid #6d7682;
+	border-radius: 5px;
+	color: #6d7682;
+	font-size: 15px;
+	background: url(../img/iconka.png);
+	background-repeat: no-repeat;
+	background-position: 5% 50%;
+	margin: 35px 0px 100px 857px;
+	padding: 0px 0px 0px 20px;
+}
+
+.skill {
+	width: 100%;
+	height: 523px;
+	background: url(../img/image_fon.jpg);
+}
+
+.skill h2 {
+	font-size: 33px;
+	color: #263244;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 108px;
+}
+
+.skill img {
+	margin-left: 48.5%;
+	margin-top: 15px;
+}
+
+.nav__skill {
+	width: 1100px;
+	height: 165px;
+	border: solid 2px #1da532;
+	margin: 100px 0px 0px 414px;
+}
+
+.opisanie {
+	display: inline-block;
+	padding: 5px;
+	background-repeat: no-repeat;
+
+}
+
+.skill__1 {
+	border-right: solid 2px #2c384a;
+}
+
+.skill__2 {
+	margin-left: 297px;
+
+}
+
+/* рр ркикикиек */
+
+.keis h2 {
+	font-size: 33px;
+	color: #263244;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 108px;
+}
+
+.keis img {
+	margin-left: 48%;
+	margin-top: 26px;
+	background-position: center;
+}
+
+.text__keis {
+	text-align: center;
+	color: #414b5b;
+    margin-top: 36px;
+}
+
+.img__keiss{
+width: 1171px;
+height: 590px;
+margin-top:  30px;
+margin-left: 388px;
+background: url(../img/keiss.png);
+background-position: 100% 0%;
+}
+
+.client-website{
+	border: solid 2px #1da582;
+	margin-top: 40px;
+	margin-left: 388px;
+	width: 220px;
+	height: 70px;
+
+}
+
+.client-website h4{
+	font-size: 15px;
+	color: #263244;
+	font-weight: bold;
+}
+
+.client-website p{
+	font-size: 10px;
+	color: #263244;
+	padding: 5px 0px;
+}
+.client-website a{
+	font-size: 10px;
+	color: #263244;
+	padding: 5px 0px;
+	display: inline-block;
+}
+
+.name__project{
+	border: solid 2px brown;
+	width: 860px;
+	height: 70px;
+	margin-left: 674px;
+}
+.name__project h5{
+	font-size: 14px;
+	color: #263244;
+	padding: 5px 0px;
+	font-weight: bold;	
+}
+
+.name__project p{
+	font-size: 10px;
+	color: #263244;	
+}
+
+.knopka__visit{
+	height: 40px;
+	width: 204px;
+	text-align: center;
+	background-color:#31c8bb;
+	border-radius: 5px;
+	color: white;
+	font-size: 13px;
+	padding:  16px 46px;
+	margin-left: 388px;
+		
+}
