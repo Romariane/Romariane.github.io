@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script>/*js функция подсчета стоимости услуг*/
+		function calc() {
+				  //ссылка на элемент Select (Тип услуги)
+				  var type_services = document.getElementById("type_services");
+				  //ссылка на чекбокс (Требуется верстка?)
+				  var is_html = document.getElementById("is_html");
+				  //ссылка на элемент input (Кол-во вариантов)
+				  var count = document.getElementById("count");
+				  //ссылка на элемент span, в него пишем стоимость
+				  var result = document.getElementById("result");
+				  var price = 0;
+				  price += parseInt(type_services.options[type_services.selectedIndex].value);
+				  price += (is_html.checked == true) ? parseInt(is_html.value) : 0;
+				  price = parseInt(count.value) * price;
+				  result.innerHTML = price;
+		}
+</script>
+<style type="text/css">/*CSS код*/
+		.calc {
+				  border: #308aca 1px solid;
+				  border-radius: 2px;
+				  padding: 15px;
+				  width: 228px;
+		}
+		#calc select {
+				  cursor: pointer;
+		}
+		#calc p {
+				  margin: 0;
+					}
+		#calc p, #calc label {
+				  background-color : #e21002;
+				  border: #000 1px solid;
+				  border-radius: 2px;
+				  color : #acaaaa;
+				  cursor: pointer;
+				  display: inline-block;
+				  height: 20px;
+				  font-size: 100%;
+				  margin-top: 3px;
+				  padding: 2px 0;
+				  text-align: center;
+				  width: 150px;
+		}
+		#calc p:hover, #calc label:hover {
+				  background-color : #fd1303;
+		}
+		#calc #count {
+				  width: 20px;
+		}
+</style>
+<div id="calc">
+		<h4>Калькулятор стоимости разработки сайтов</h4>
+		 <div class="calc">
+				  <div><b>Стоимость: <span id="result">0</span></b> руб</div>
+				  <select onchange="calc()" id="type_services">
+							 <option value="0">Выбрать</option>
+							 <option value="40000">Сайт визитка</option>
+							 <option value="160000">Интернет магаин</option>
+							 <option value="100000">Индивидуальный сайт</option>
+							 <option value="50000">Landing Page</option>
+				  </select>
+				  <p class="no_text_indent">Вариантов  дизайна</p> <input type="text" id="count" value="1" onchange="calc()" />
+				  <label for="is_html">Требуется верстка</label>
+				  <input type="checkbox" onchange="calc()" value="3000" id="is_html" />
+		</div>
+</div>
+</body>
+</html>
